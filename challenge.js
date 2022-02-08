@@ -1,8 +1,5 @@
 const makeArrays = (array) => {
-  let result = [];
-  if (array) {
-    ...array
-  }
+  array.forEach((item) => console.log(item));
   return array;
 };
 
@@ -13,5 +10,3 @@ const arr3 = [1, 2, 3, 4];
 console.log(makeArrays(arr1));
 console.log(makeArrays(arr2));
 console.log(makeArrays(arr3));
-
-console.log(...arr2);
