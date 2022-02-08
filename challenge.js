@@ -2,7 +2,10 @@ const makeArrays = (array) => {
   let result = [[]];
 
   array.forEach((item) => result.push([item]));
-  // array.forEach((item) => result.push([item]));
+
+  
+
+  result.push(array)
 
   return result;
 };
