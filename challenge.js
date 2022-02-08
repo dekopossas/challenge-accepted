@@ -1,6 +1,10 @@
 const makeArrays = (array) => {
-  array.forEach((item) => console.log(item));
-  return array;
+  let result = [[]];
+
+  array.forEach((item) => result.push([item]));
+  // array.forEach((item) => result.push([item]));
+
+  return result;
 };
 
 const arr1 = [1, 2];
