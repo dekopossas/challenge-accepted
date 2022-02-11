@@ -4,7 +4,7 @@ const makeArrays = (array) => {
   array.forEach((item) => result.push([item]));
 
   if(array.length > 2) {
-    array.forEach((item) => sai daqui luizin seu corno! kkkkk)
+    array.forEach((item) => )
   }
 
   result.push(array)
