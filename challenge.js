@@ -1,13 +1,22 @@
 const makeArrays = (array) => {
-  let result = [[]];
+  let result = [];
+  let result1 = [[]];
+  let result2 = [];
+  let result3 = [];
 
-  array.forEach((item) => result.push([item]));
+  array.forEach((item) => result1.push([item]));
 
-  if(array.length > 2) {
-    array.forEach((item) => )
-  }
+  // if(array.length > 2) {
+  //   array.forEach((item) => )
+  // }
 
-  result.push(array)
+  array.forEach(
+    (item) => {
+      if(result2.find((findItem) => findItem !== item)){
+        result2.push(item);
+      }
+    } 
+  );
 
   return result;
 };
